@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+			<meta name="viewport" content="with=device-width, initial-scale=1.0">
+			<title>A-GREEN-CULTURE</title>
+			<link rel="stylesheet" href="style2.css">
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+			<link rel="stylesheet" href= "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+	</head>
+
+<body>
+<section class="header">
+	<nav>
+	<a href="index.html" ><img src="logo.png" width="150px" height="150px"></a>
+	<div class ="nav-links">
+		<ul>
+			<li><a href="">HOME</a><li>
+			<li><a href="">ABOUT</a><li>
+			<li><a href="">Event</a><li>
+			<li><a href="">FAQ</a><li>
+			<li><a href="">Places</a><li>
+
+		</ul>
+	</div>
+	</nav>
+
+<div class="text-box">
+	<h1>Simplest ways to farm<h1>
+	<p>Make agriculture your life style, because<br>
+	life bigins by soil and it will end by soil.
+	</p>
+	<a href="" class="hero-btn">Visit us to know more</a>
+
+</div>
+</section>
+
+<!---next page---->
+<section class="course">
+			<h1>What we offer<h1>
+			<p>this is the begining</p>
+
+			<div class ="row">
+				<div class="course-col">
+					<h3>Step 1</h3>
+					<p> This is a supernice course</p>
+				</div>
+
+			<div class="course-col">
+				<h3>Step 2</h3>
+				<p> This is a supernice course</p>
+			</div>
+
+			<div class="course-col">
+				<h3>Step 3</h3>
+				<p> This is a supernice course</p>
+			</div>
+
+			<div class="course-col">
+				<h3>Step 4</h3>
+				<p> This is a supernice course</p>
+			</div>
+
+			<div class="course-col">
+				<h3>Step 5</h3>
+				<p> This is a supernice course</p>
+			</div>
+		</div>
+
+  </section>
+<!--pictures-->
+
+<section class="place">
+	<h1>Places for farming</h1>
+	<p> This is a supernice style</p>
+<div class="row">
+
+		<div class ="campus-col">
+			<img src="wall.jpg">
+				<div class="layer">
+					<h3>Vertical up by the wall</h3>
+				</div>
+		</div>
+		<div class ="campus-col">
+			<img src="Balcon.jfif">
+				<div class="layer">
+					<h3>On your balcony</h3>
+				</div>
+		</div>
+		<div class ="campus-col">
+			<img src="pots.jfif">
+				<div class="layer">
+					<h3>Using container pots</h3>
+				</div>
+		</div>
+		<div class ="campus-col">
+			<img src="R.jfif">
+				<div class="layer">
+					<h3>Water gutter</h3>
+				</div>
+		</div>
+</div>
+
+</section>
+
+
+
+</body>
+
+
+</html>

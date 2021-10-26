@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+
+  <link rel="stylesheet" href="Styles.css">
+
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+
+
+
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+  <!---
+  <nav>
+    <a href="index.html" ><img src="Best Logo.png" width="150px" height="150px"></a>
+    <div class="nav-links">
+      <ul>
+        <li><a href="index.html">Home</a><li>
+        <li><a href="about.html">About</a><li>
+        <li><a href="Event.htm">Events</a><li>
+        <li><a href="FAQ.htm">FAQ</a><li>
+    </ul>
+  </div>
+  </nav>
+-------->
+  <display="flex">
+
+</head>
+
+<body>
+    <section>
+  <!----new------------>
+  <nav>
+  <a href="index.html" ><img src="logo.png" width="150px" height="150px"></a>
+  <div class ="nav-links" id="links">
+    <i class="fa fa-times" onclick="hide()"></i>
+    <ul>
+      <li><a href="index.html">Home</a><li>
+      <li><a href="about.html">About</a><li>
+      <li><a href="Event.htm">Events</a><li>
+      <li><a href="FAQ.htm">FAQ</a><li>
+      </ul>
+  </div>
+  <i class="fa fa-bars" onclick="show()"></i>
+  </nav>
+
+  <!-----------new------------>
+
+    <div class="leftBox">
+      <div class="content">
+        <h1>Upcoming Events</h1>
+        <p>We will be having a green day regularly,<br>
+          which will inform the community more<br>
+           about susistance farming and teach them <br>
+           how they can use the land or space they can utilize.</p>
+      </div>
+    </div>
+    <div class="events">
+      <ul>
+        <li>
+          <div class="time">
+            <h2>15<br><span>July</span></h2>
+
+          </div>
+
+          <div class="details">
+            <h3>Compassion in World Farming</h3>
+            <p>We will be hosting an event on this day<br> where we will be telling you more about A-GREEN-CULTURE<br>and explaining why its important<br>to know about subsistence farming. </p>
+            <a href="#">View Details</a>
+          </div>
+          <div style="clear: both;"</div>
+        </li>
+      </ol>
+    </section>
+<section>
+
+      <div class="leftBox">
+        <div class="content">
+          <h1>Past Events</h1>
+          <p>Past events are the events that we have had in the past where we got to interact with people learning their views and perspectives. These events will be hosted again for the next year and regularly update our content</p>
+        </div>
+      </div>
+      <div class="events">
+        <ul>
+          <li>
+            <div class="time">
+              <h2>13<br><span>June</span></h2>
+            </div>
+            <div class="details">
+              <h3>A-Green-Day</h3>
+              <p>We will be hosting an event called<br> A-GREEN-DAY in Mitchells plain where we will be<br>doing the practical work and teaching people how to plant </p>
+              <a href="#">View Details</a>
+            </div>
+            <div style="clear: both;"</div>
+          </li>
+        </ul>
+
+</section>
+
+
+</body>
+
+  <div class= "footer">
+  <h4> About</h4>
+<div class="icons">
+  <i class="fa fa-facebook"></i>
+  <i class="fa fa-twitter"></i>
+  <i class="fa fa-instagram"></i>
+  <i class="fa fa-linkedin"></i>
+
+</div>
+<div class="footer-color">
+<p>Made with <i class="fa fa-heart-o"></i> by A-GREEN-CULTURE</p>
+</div>
+</div>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script>
+
+	var links = document.getElementById("links")
+	function show(){
+		links.style.right = "0";
+	}
+	function hide(){
+		links.style.right = "-200px";
+	}
+
+</script>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE>
+
+<html>
+
+
+
+<head>
+<section>
+
+<title>FAQ</title>
+<link rel="stylesheet" href="Styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+
+<!--
+<nav>
+  <a href="index.html" ><img src="Best Logo.png" width="150px" height="150px"></a>
+  <div class="nav-links">
+    <ul>
+  <li><a href="index.html">Home</a><li>
+  <li><a href="about.html">About</a><li>
+  <li><a href="Event.htm">Events</a><li>
+  <li><a href="FAQ.htm">FAQ</a><li>
+  </ul>
+</div>
+</nav>
+--->
+<display="flex">
+</head>
+<center>
+
+<body>
+<!----New--->
+<nav>
+<a href="index.html" ><img src="logo.png" width="150px" height="150px"></a>
+<div class ="nav-links" id="links">
+  <i class="fa fa-times" onclick="hide()" ></i>
+  <ul>
+    <li><a href="index.html">Home</a><li>
+    <li><a href="about.html">About</a><li>
+    <li><a href="Event.htm">Events</a><li>
+    <li><a href="FAQ.htm">FAQ</a><li>
+    </ul>
+</div>
+<i class="fa fa-bars" onclick="show()"></i>
+</nav>
+
+<!------new------->
+
+<div class="faq_container">
+<div class="heading1"><h1>A-GREEN-CULTURE</h1>
+</div>
+
+
+
+
+
+       <div class="faq">
+<h2>!!!For your own information!!!</h2>
+  <legend align= "center">Frequently asked questions (FAQ) </legend>
+
+
+
+
+
+      <div class="faq_question">Q: How are were going to practice<br> these steps as we don't have big land?<br><br></div>
+
+           <div class="faq_answer_container">
+
+              <div class="faq_answer">A: A-Green-Culture focuses on traing<br>
+
+                 you to practice farming by using the space around you<br>
+
+                  as you don't need bigger land to farm we our style<br><br><br>
+
+              </div>
+
+           </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+<!--Form-->
+</section>
+</body>
+<h2 style="text-align: center">Submit Question</h2>
+<div class="container">
+  <form action="action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="city">City</label>
+      </div>
+      <div class="col-75">
+        <select id="city" name="city">
+          <option value="Cape Town">Cape Town</option>
+          <option value="Johannesburg">Johannesburg</option>
+          <option value="Durban">Durban</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+
+
+  <div class= "footer">
+  <h4> About</h4>
+<div class="icons">
+  <i class="fa fa-facebook"></i>
+  <i class="fa fa-twitter"></i>
+  <i class="fa fa-instagram"></i>
+  <i class="fa fa-linkedin"></i>
+
+</div>
+<div class="footer-color">
+<p>Made with <i class="fa fa-heart-o"></i> by A-GREEN-CULTURE</p>
+</div>
+</div>
+
+
+</center>
+<script>
+
+	var links = document.getElementById("links")
+	function show(){
+		links.style.right = "0";
+	}
+	function hide(){
+		links.style.right = "-200px";
+	}
+
+</script>
+
+
+
+
+
+
+</html>

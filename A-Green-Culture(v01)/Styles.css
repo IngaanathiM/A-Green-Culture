@@ -1,0 +1,418 @@
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li{
+  list-item:none;
+  display:inline-block;
+  padding:8px 12px;
+  position: relative;
+font-weight:bold;
+}
+.nav-links ul li a{
+color:#fff;
+text-decoration:none;
+font-size:14px;
+}
+.nav-links ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display:block;
+  margin:auto;
+  transition:0.5s;
+}
+.nav-links ul li:hover::after{
+  width: 100%;
+}
+
+nav .fa{
+   display:none;
+ }
+
+@media(max-width: 760px){
+.text-box h1{
+ font-size:20px;
+}
+.nav-links ul li{
+ display:block;
+}
+.nav-links{
+ position:absolute;
+ background: #f44336;
+ height:100vh;
+ width: 200px;
+ top:0;
+ right:-200px;
+ text-align: left;
+ z-index: 1;
+ transition: 0.5s;
+}
+nav .fa{
+ display: block;
+ color: #fff;
+ margin:20px;
+ font-size: 22px;
+ cursor: pointer;
+}
+.nav-links ul{
+ pedding: 30px;
+}
+}
+
+body{
+  margin:0;
+  padding:0;
+  font-family: "Roboto", sans-serif;
+
+}
+section{
+width: 100%;
+height: 100vh;
+background-image:url("Urban-Ag-List.jpg");
+background-size: cover;
+box-sizing: border-box;
+}
+
+img.bg {
+
+min-height: 100%;
+min-width: 1024px;
+
+
+width: 100%;
+height: 100%;
+
+
+position: fixed;
+top: 0;
+left: 0;
+}
+
+
+
+
+section .leftBox{
+  width: 50%;
+  height: 100%;
+  float: left;
+  padding: 50px;
+  box-sizing: border-box;
+  color: white;
+}
+section .leftBox .content{
+  color: :#fff;
+  background: rgba(0,0,0,.5);
+  padding: 40px;
+
+}
+
+section .leftBox .content:hover{
+
+}
+section .leftBox .content p{
+  margin: 10px 0 0;
+  padding: 0;
+
+}
+section .events{
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background: rgba(0,0,0,.5);
+  float: right;
+  box-sizing: boarder-box;
+}
+
+section .events ul{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+  padding: 40px;
+  box-sizing: border-box;
+
+}
+section .events ul li{
+  list-style: none;
+  background: #fff;
+  box-sizing: border-box;
+  height: 200px;
+
+}
+
+section .events ul li .time{
+  position: relative;
+  padding: 20px;
+  background: #262626;
+  box-sizing: border-box;
+  width: 30%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  transition: .5s;
+}
+section .events ul li:hover .time{
+  background: green;
+}
+section .events ul li .time h2
+{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 30px;
+  line-height: 30px;
+}
+section .events ul li .details{
+  padding: 20px;
+  background: #fff;
+  box-sizing: border-box;
+  width: 70%;
+  height: 100%;
+  float: left;
+}
+section .events ul li .details h3{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+}
+section .events ul li .details p{
+  position: relative;
+  margin: 10px 0 0;
+  padding: 0;
+  font-size: 16px;
+}
+section .events ul li .details a{
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  boarder: 2px solid #262626;
+  margin-top: 15px;
+  font-size: 18px;
+  transition: .5s;
+  color: green;
+
+}
+
+section .events ul li .details a:hover{
+  background: lightgreen;
+  color: green;
+  border-color: green;
+}
+
+section {
+  color: black;
+}
+
+fieldset {
+  border-color: grey;
+  padding: 25px;
+  box
+}.nav-links ul li::after{
+
+ content: '';
+
+ width: 0%;
+
+ height: 2px;
+
+ background: #f44336;
+
+ display:block;
+
+ margin:auto;
+
+ transition:0.5s;
+
+ }
+
+ .nav-links ul li:hover::after{
+
+ width: 100%;
+
+ }
+section .faq_container{
+  color: white;
+  font-size: 20px;
+}
+section .faq_container h1{
+  font-size: 50px;
+}
+
+section .faq{
+  color: :#fff;
+  background: rgba(0,0,0,.5);
+  padding: 40px;
+}
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+  @media(max-width: 786px){
+
+
+    .faq_container .heading1 h1 {
+      font-size: 30px;
+    }
+
+      .faq{
+        font-size: 14px;
+      }
+
+    .faq_question{
+      font-size: 10px;
+    }
+      .faq_answer{
+          font-size: 8px;
+      }
+
+    }
+    @media(max-width: 786px){
+      section{
+        height: 100%;
+        background-position: center;
+      }
+      section .leftBox{
+        width: 100%;
+        height: auto;
+        float: none;
+        padding: 20px;
+
+      }
+      section .events{
+
+        width: 100%;
+        height: auto;
+        background: transparent;
+        float: none;
+
+      }
+      section .leftBox .content{
+        padding: 20px;
+      }
+      section .leftBox .content h1{
+        font-size: 30px;
+
+      }
+      section .events ul{
+        position: relative;
+        transform: translateY(0px);
+        padding: 0 20px 20px;
+      }
+  section .events ul li{
+
+    height: auto;
+    background: rba(255,255,255,.8);
+  }
+  section .events ul li .time{
+    width: 80px;
+    height: 80px;
+    padding: 0;
+  }
+  section .events ul li .time h2{
+
+    font-size:30px;
+    line-height: 24px;
+  }
+  section .events ul li .details{
+    width:100%;
+    float: none;
+    padding-left: 100px;
+    background: transparent;
+  }
+section .events ul li .details a{
+  padding: 5px 10px;
+}
+    }
+
+
+.footer{
+	width: 100%;
+	text-align: center;
+	padding:30px 0;
+}
+
+.footer h4{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: bolder;
+}
+.icons .fa{
+	color:#f44336;
+	margin: 0 13px;
+	cursor: pointer;
+	padding: 18px 0;
+}
+.fa-heart-o{
+	color:#f44336;
+	margin: 0 13px;
+
+}
+.footer-color p{
+  color:#777;
+  font-size:;10px;
+  font-weight:300;
+  line-heaight:22px;
+  padding:20px;
+
+}

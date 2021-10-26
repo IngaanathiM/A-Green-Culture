@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>ABOUT</title>
+	<link rel="stylesheet" href="style2.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+
+	<section class="sub-header">
+
+		<nav>
+		<a href="index.html" ><img src="logo.png" width="150px" height="150px"></a>
+		<div class ="nav-links" id="links">
+			<i class="fa fa-times" onclick="hide()"></i>
+			<ul>
+				<li><a href="index.html">Home</a><li>
+		    <li><a href="about.html">About</a><li>
+		    <li><a href="Event.htm">Events</a><li>
+		    <li><a href="FAQ.htm">FAQ</a><li>
+				</ul>
+		</div>
+		<i class="fa fa-bars" onclick="show()"></i>
+		</nav>
+    <center>
+		<h1 style="color:white;">About Us</h1>
+	</center>
+	</section>
+
+	<section class="about-us">
+		<div class="row">
+			<div class="about-col">
+				<h2 >Why A-Green-Culture?<h2>
+				<p> <br>We provide high quality agricultural information that is easy to implement<br>
+					 as well as step-by-step practical subsistence farming. Our tips are cost effective<br>
+					  as they focus on recycling and promote less food wastage.</p>
+
+						<p><b>Vision</b><br><br></p>
+							<p>To educate the community on subsistence farming and help people live<br>
+							sustainable through thi way of farming.<br><br></p>
+							<p><b>Our Visual brand styles</b><br><br></p>
+						<p>Our brand focuses on overcoming food insecurity by introducing and providing<br>
+						people with enough and correct information on Agriculture (subsistence farming).</p>
+
+						</p>
+				<a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+			</div>
+
+			<div class="about-col" align="center">
+				<img src="group.jpeg"  width="800px" height="800" >
+			</div>
+		</div>
+
+
+    </section>
+
+<section class="footer">
+				<h4> About</h4>
+				<p> </p>
+				<div class="icons">
+						<i class="fa fa-facebook"></i>
+						<i class="fa fa-twitter"></i>
+						<i class="fa fa-instagram"></i>
+						<i class="fa fa-linkedin"></i>
+				</div>
+				<p>Made with <i class="fa fa-heart-o"></i> by A-GREEN-CULTURE</p>
+		</section>
+
+		<script>
+
+			var links = document.getElementById("links")
+			function show(){
+				links.style.right = "0";
+			}
+			function hide(){
+				links.style.right = "-200px";
+			}
+
+		</script>
+
+</body>
+
+
+</html>
