@@ -1,2 +1,2 @@
 # A-Green-Culture
-Promoting farming in the modern world.
+Promote farming in the modern world.
